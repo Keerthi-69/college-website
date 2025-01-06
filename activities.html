@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activities</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #e8f0f2;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #003366; /* Dark Blue */
+            color: #fff;
+            text-align: center;
+            padding: 25px;
+            font-size: 26px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        section {
+            max-width: 1000px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            text-align: center;
+            font-size: 30px;
+            color: #003366; /* Dark Blue */
+            margin-bottom: 30px;
+            text-transform: uppercase;
+        }
+
+        /* Activities List */
+        .activities-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .activity-card {
+            background-color: #f7f9fc;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .activity-card h3 {
+            color: #003366; /* Dark Blue */
+            margin-bottom: 15px;
+            font-size: 24px;
+        }
+
+        .activity-card p {
+            color: #555;
+            font-size: 14px;
+        }
+
+        .activity-card a {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #003366;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .activity-card a:hover {
+            background-color: #002a4d;
+        }
+
+        .activity-card:hover {
+            transform: translateY(-5px);
+            background-color: #f2f7fb;
+        }
+
+        footer {
+            background-color: #003366; /* Dark Blue */
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>College Activities</h1>
+        <p>Explore the diverse activities we offer</p>
+    </header>
+
+    <section>
+        <h2>Our Extracurricular Activities</h2>
+        <div class="activities-list">
+            <div class="activity-card">
+                <h3>Sports</h3>
+                <p>We offer a wide range of sports including basketball, football, and athletics to keep our students fit and active.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="activity-card">
+                <h3>Clubs & Societies</h3>
+                <p>Join various clubs such as the coding club, photography club, and music society to develop your hobbies and skills.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="activity-card">
+                <h3>Workshops</h3>
+                <p>Participate in hands-on workshops and skill development sessions across diverse topics and industries.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="activity-card">
+                <h3>Fests & Competitions</h3>
+                <p>Our annual fests and inter-college competitions provide an opportunity to showcase your talents and win prizes.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="activity-card">
+                <h3>Cultural Events</h3>
+                <p>Experience vibrant cultural performances and activities, celebrating diverse traditions and talents from around the world.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="activity-card">
+                <h3>Social Outreach</h3>
+                <p>Engage in social welfare activities like blood donation camps, tree plantation drives, and community outreach programs.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 CMR Engineering College | All Rights Reserved</p>
+    </footer>
+</body>
+</html>

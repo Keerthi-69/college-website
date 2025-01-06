@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infrastructure</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #e8f0f2;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #003366; /* Dark Blue */
+            color: #fff;
+            text-align: center;
+            padding: 30px;
+            font-size: 28px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        section {
+            max-width: 1000px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 4px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        section h2 {
+            text-align: center;
+            font-size: 32px;
+            color: #003366; /* Dark Blue */
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        /* Infrastructure Layout */
+        .infrastructure-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: space-between;
+        }
+
+        .infrastructure-card {
+            background-color: #f0f7fb;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            flex-basis: 45%;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .infrastructure-card img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .infrastructure-card h3 {
+            color: #003366; /* Dark Blue */
+            font-size: 22px;
+            margin-bottom: 15px;
+        }
+
+        .infrastructure-card p {
+            color: #555;
+            font-size: 14px;
+        }
+
+        .infrastructure-card:hover {
+            transform: translateY(-8px);
+            background-color: #e3f2fb;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #003366; /* Dark Blue */
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        /* Media Queries for Responsiveness */
+        @media (max-width: 768px) {
+            .infrastructure-card {
+                flex-basis: 100%;
+            }
+
+            section {
+                padding: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Infrastructure at Our College</h1>
+        <p>State-of-the-art Facilities for a Bright Future</p>
+    </header>
+
+    <section>
+        <h2>Our World-Class Infrastructure</h2>
+        <div class="infrastructure-container">
+            <div class="infrastructure-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_M6AD9Z8_Bs6Bg_S5y_1_5EuJh36HP6DVOA&s" alt="Campus Building">
+                <h3>Modern Campus Buildings</h3>
+                <p>Our spacious and well-equipped buildings provide an optimal environment for learning, research, and collaboration.</p>
+            </div>
+            <div class="infrastructure-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJlO0mwgrr6OMI2FRXIq2CGiJqcAoiJgfX0w&s" alt="Library">
+                <h3>State-of-the-art Library</h3>
+                <p>Our library is stocked with a vast collection of books, journals, and digital resources to support student learning and research.</p>
+            </div>
+            <div class="infrastructure-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGx7PAHL6HL5JWJJymw74dbLcGR7BvaCIxzQ&s" alt="Laboratories">
+                <h3>Advanced Laboratories</h3>
+                <p>We provide students with access to cutting-edge labs equipped with the latest technology to enhance practical learning.</p>
+            </div>
+            <div class="infrastructure-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRci8atzLbyxzu9Dut6qq7H0XU5w6HVkOEc5w&s" alt="Sports Complex">
+                <h3>Sports Complex</h3>
+                <p>Our campus features a modern sports complex with facilities for various indoor and outdoor sports, promoting physical well-being.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 CMR Engineering College | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
